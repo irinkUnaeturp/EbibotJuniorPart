@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    // Add any other necessary compiler options
+  },
+  "include": [
+    "**.ts"
+  ],
+  "exclude": [
+    "dist" // Exclude the output directory
+    // Add any other directories or patterns to exclude if needed
+  ]
+}
+
+
